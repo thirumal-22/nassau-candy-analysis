@@ -10,7 +10,7 @@ st.set_page_config(page_title="Nassau Candy Logistics", layout="wide")
 @st.cache_data
 def load_data():
     # Load your dataset
-    df = pd.read_csv('/workspaces/nassau-candy-analysis/Nassau Candy Distributor.csv') # Ensure filename matches
+    df = pd.read_csv('Nassau Candy Distributor.csv') # Ensure filename matches
     
     # 1. Product to Factory Mapping
     factory_mapping = {
